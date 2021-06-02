@@ -1,9 +1,32 @@
-import React from 'react'
+import React from 'react';
+
+let features1 = "Direct Communication across all reliable networks"
 
 export default function Features() {
     return (
         <div>
-            This is Features section.
+            <div>
+                <p>Features</p>
+            </div>
+
+            <div>
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+                <div> { features1 } </div>
+                
+            </div>
         </div>
     )
 }

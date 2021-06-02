@@ -1,0 +1,25 @@
+.home_header {
+    border : 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .home_logo {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(139, 48, 175);
+}
+
+.home_navitems > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    list-style: none;
+}
+
+.home_navitems ul > li {
+    padding : 5px;
+}
+ 
+
