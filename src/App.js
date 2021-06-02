@@ -1,12 +1,12 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from "react-dom";
+// import "./App.css"
+import Home from "./containers/Home";
 
-function App() {
-  return (
-    <div>
-      hello there
-    </div>
-  );
+function App(){
+    return (
+        <Home />
+    )
+   
 }
 
 export default App;
